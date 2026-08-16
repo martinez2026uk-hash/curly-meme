@@ -1,0 +1,2 @@
+rootProject.name = 'CurlyMeme'
+include ':app'
