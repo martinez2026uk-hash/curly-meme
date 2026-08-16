@@ -1,0 +1,2 @@
+-keep class com.rmagent.app.** { *; }
+-dontwarn com.rmagent.app.**

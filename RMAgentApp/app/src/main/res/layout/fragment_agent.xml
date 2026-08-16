@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D1117"
+    android:padding="16dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#161B22"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agent RM"
+                android:textSize="18sp"
+                android:textColor="#58A6FF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/agentInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Zadaj pytanie agentowi…"
+                android:textColor="#C9D1D9"
+                android:textColorHint="#8B949E"
+                android:background="#0D1117"
+                android:padding="8dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnAsk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wyślij"
+                android:backgroundTint="#58A6FF"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#161B22"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dzienne notatki"
+                android:textSize="18sp"
+                android:textColor="#58A6FF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dailyNote"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Co dzisiaj robisz i zdobywasz?"
+                android:textColor="#C9D1D9"
+                android:textColorHint="#8B949E"
+                android:background="#0D1117"
+                android:gravity="top"
+                android:padding="8dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnSaveNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:backgroundTint="#58A6FF"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#161B22"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odpowiedź agenta"
+                android:textSize="16sp"
+                android:textColor="#8B949E"
+                android:layout_marginBottom="8dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/agentResponse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tu pojawi się odpowiedź agenta RM."
+                    android:textColor="#C9D1D9"
+                    android:lineSpacingExtra="4dp" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

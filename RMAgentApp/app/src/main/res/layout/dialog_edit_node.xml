@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    app:cardBackgroundColor="#161B22"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <EditText
+        android:id="@+id/nodeEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#C9D1D9"
+        android:textColorHint="#8B949E"
+        android:background="#0D1117"
+        android:padding="12dp"
+        android:textSize="14sp" />
+
+</androidx.cardview.widget.CardView>

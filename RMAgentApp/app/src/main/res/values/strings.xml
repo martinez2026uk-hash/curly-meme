@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RMAgent App</string>
+    <string name="tab_browser">Przeglądarka</string>
+    <string name="tab_mindmap">Mind Map</string>
+    <string name="tab_agent">Agent RM</string>
+    <string name="tab_notes">Notatki</string>
+    <string name="url_placeholder">https://example.com</string>
+    <string name="go">Idź</string>
+    <string name="login_title">Zaloguj się</string>
+    <string name="username">Użytkownik</string>
+    <string name="password">Hasło</string>
+    <string name="login">Zaloguj</string>
+    <string name="login_saved">Zalogowano pomyślnie</string>
+    <string name="mindmap_hint">Kliknij, aby dodać węzeł</string>
+    <string name="agent_thinking">Agent myśli…</string>
+    <string name="export_data">Eksportuj</string>
+    <string name="import_data">Importuj</string>
+    <string name="save">Zapisz</string>
+    <string name="clear">Wyczyść</string>
+    <string name="node_text">Tekst węzła</string>
+    <string name="add_child">Dodaj dziecko</string>
+    <string name="delete_node">Usuń</string>
+</resources>
